@@ -1,3 +1,5 @@
+import time
+start = time.time()
 # given that the array/list is sorted in ascending or descending order
 arr = [1,2,3,4,5,6,7,8]
 
@@ -14,4 +16,6 @@ def BinarySearch(arr, l, r, x):
         else:
             r = mid-1
     return -1
-print(BinarySearch(arr, 0, len(arr)-1, 9))      
+end = time.time()
+print(BinarySearch(arr, 0, len(arr)-1, 9))    
+print(end - start)  
