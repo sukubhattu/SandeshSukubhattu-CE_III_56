@@ -1,0 +1,7 @@
+I haven't used  
+if __name__ = "__main__":
+    unittest.main()
+
+To run code without this type this in terminal
+
+python -m unittest <filename>.py
