@@ -51,5 +51,8 @@ for num in range(10, 100, 10):
     sec.append(end-start)
 # print(numbers)
 # print(sec)
+plt.xlabel("size of inputs")
+plt.ylabel("time taken")
+plt.title("graph for merge sort")
 plt.plot(numbers, sec)
 plt.show()
